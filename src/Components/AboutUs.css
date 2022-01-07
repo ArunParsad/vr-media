@@ -1,0 +1,29 @@
+.about{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    line-height: 1.8;
+    justify-content: space-around;
+}
+.content {
+    width: 80%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin:  1rem 0;
+    line-height: 1.8;
+    
+}
+/* for mobile */
+@media (max-width: 1024px){
+    .about{
+        flex-direction: column;
+        height: 100%;
+    }
+    .img {
+        display: none;
+    }
+    
+}

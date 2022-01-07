@@ -1,0 +1,43 @@
+/* for mobile */
+@media (max-width: 1024px){
+    .home-info-para {
+        display: none;
+    }
+    .home-button {
+        display: none;
+    }
+    .home-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.5;
+        height: 70vh;
+    }
+    .main-heading {
+        text-align: center;
+        font-weight: bolder;
+    }
+    .mobile-button{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .mobile-button button {
+        margin: 0.5rem 0.5rem;
+        width: 8rem;
+        height: 2.5rem;
+    }
+    .img-section img {
+        display: block;
+        margin: auto;
+        width: 80%;
+    }
+    .dekstop-button {
+        display: none;
+    }
+    .mobile-para{
+        text-align: center;
+    }
+}
+/* for large screen than mobile */

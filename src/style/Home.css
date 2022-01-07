@@ -1,0 +1,36 @@
+/* hide */
+@media(min-width:1025px){
+    .home-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+    .mobile-para, .home-section h1{
+        text-align: center;
+    }
+    .home-section h1 {
+        font-weight: bolder;
+    }
+    .mobile-button{
+        display: none;
+    }
+    .mobile-para{
+        font-style: italic;
+    }
+    .img-fluid{
+        animation: MoveUpDown 4s linear infinite alternate-reverse;
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
+
+    @keyframes MoveUpDown {
+        0%, 100% {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-10px);
+        }
+      }
+}
