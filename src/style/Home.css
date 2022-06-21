@@ -21,7 +21,7 @@
     font-weight: bolder;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
-  span{
+  .main-heading span{
     color: #FF9B3D;
   }
 
@@ -29,7 +29,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
   }
 
   .spacer {
