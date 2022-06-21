@@ -23,7 +23,7 @@ const Home = () => {
                   color="success"
                 />
               </NavLink>
-              <NavLink to="/Services">
+              <NavLink to="/About">
                 <Button
                   btnType="btn-hover color-1"
                   className="get-started"
