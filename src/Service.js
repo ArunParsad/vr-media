@@ -2,7 +2,13 @@ import React from "react";
 import ServiceCard from "./Components/ServiceCard";
 import "./style/Service.css";
 import socialImg from "./images/social media.svg";
-import webDevImg from './images/webdev.svg'
+import branding from './images/Services/branding.svg'
+import graphicDesing from './images/Services/Graphic Desing.svg'
+import socialMediaMarketing from './images/Services/Social media marketing.svg'
+import contentMarketing from './images/Services/Content marketing.svg'
+import SEO from './images/Services/seo.svg'
+import videoEditing from './images/Services/video editing.svg'
+import websiteDesing from './images/Services/website desing.svg'
 
 export default function Service() {
   return (
@@ -11,39 +17,39 @@ export default function Service() {
         <h2 className="text-center">Here's what we offer</h2>
         <div className="service-items p-1 d-flex d-flex justify-content-around flex-wrap">
           <ServiceCard
-            img={socialImg}
+            img={branding}
             heading="Branding"
             details="Creative and professional identity design helps you stand out in the market. We develop your identity in a way that people say about you when you are yet at starting phase of your game and increase your brand awareness."
           />
           <ServiceCard
-            img={webDevImg}
+            img={graphicDesing}
             heading="Graphic design"
             details="We do understand our customers completely, their objectives, targets, and requirements. We come up with all the assumptions and concepts on the requirement and narrow down the concepts to a few that exactly reflect the core values of the business."
           />
           <ServiceCard
-            img={socialImg}
+            img={socialMediaMarketing}
             heading="Social media"
             details="We support your brand with Social Media servicing to advertise your brand in a suitable manner that not only generates results but also timely reflects good results from the customers you desire. We are specialized in all social platform tools and technologies to implement respectively."
           />
           <ServiceCard
-            img={socialImg}
+            img={contentMarketing}
             heading="Content marketing "
             details="Our strategic creation delivers the best content that speaks to your brand to the point you desire for your website with all the SEO elements brought into it. We also do content planning and creation for social platforms which stand unique for your business in all aspects."
           />
           <ServiceCard
-            img={socialImg}
+            img={SEO}
             heading="SEO"
             details="We take care of your website to improve the quality and quantity traffic of your website through organic search results. Our SEO specialists are trained in all corners of the SEO and help to rank your website to the top in the search results."
           />
           <ServiceCard
-            img={socialImg}
+            img={videoEditing}
             heading="Video Editing"
             details="We provide the servicing for professional and commercial purposes.
             With the best creative professional team, we deliver the best video editing to your brand or business.
             "
           />
           <ServiceCard
-            img={socialImg}
+            img={websiteDesing}
             heading="Website Design"
             details="Effective web design can help improve the layout, text, and online forms to improve your conversion rates and increase sales. Website design is the way toward gathering thoughts and tastefully organizing and actualizing them, guided by specific standards for a particular reason."
           />
