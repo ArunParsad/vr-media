@@ -9,6 +9,15 @@ import contentMarketing from './images/Services/Content marketing.svg'
 import SEO from './images/Services/seo.svg'
 import videoEditing from './images/Services/video editing.svg'
 import websiteDesing from './images/Services/website desing.svg'
+import facebookAds from './images/Services/facebookads.svg'
+import softwareDesing from './images/Services/software desing.svg'
+import videoMarketing from './images/Services/video marketing.svg'
+import appMarketing from './images/Services/app marketing.svg'
+import microVideo from './images/Services/micro video.svg'
+import animationVideo from './images/Services/animation video.svg'
+import ppc from './images/Services/ppc.svg'
+import mockup from './images/Services/mockup.svg'
+import influencerMarketing from './images/Services/influencer marketing.svg'
 
 export default function Service() {
   return (
@@ -54,47 +63,47 @@ export default function Service() {
             details="Effective web design can help improve the layout, text, and online forms to improve your conversion rates and increase sales. Website design is the way toward gathering thoughts and tastefully organizing and actualizing them, guided by specific standards for a particular reason."
           />
           <ServiceCard
-            img={socialImg}
+            img={facebookAds}
             heading="Facebook Ads"
             details="With Facebook ads, we increase your brand awareness. Facebook ads are a great way to make people aware of what you offer. Facebook advertising increases traffic to your website."
           />
           <ServiceCard
-            img={socialImg}
+            img={softwareDesing}
             heading="Software Design"
             details="A software design that helps you to target audience, generate reports and analytics, create landing pages, and perform all other types of promotion techniques can be considered an online marketing software"
           />
           <ServiceCard
-            img={socialImg}
+            img={videoMarketing}
             heading="Video Marketing"
             details="Our video Marketing does not just speak about your brand, rather they get the audience to take action by making a purchase or booking your services."
           />
           <ServiceCard
-            img={socialImg}
+            img={appMarketing}
             heading="App Development Marketing"
             details="We design the App by keeping in mind our target audience and their requirements. Effective App design covers all the crucial factors by using high-quality content and providing credibility to its users to gather trust."
           />
           <ServiceCard
-            img={socialImg}
+            img={microVideo}
             heading="Micro video"
             details="Micro videos are short, 6-15 second video clips, often created through a micro-video social media platform such as Facebook, Instagram, or Snapchat. which is a single thought, image, or idea, and string them together to create a micro-video."
           />
           <ServiceCard
-            img={socialImg}
+            img={animationVideo}
             heading="Animation Video"
             details="Animations are the simplest sources of entertainment. The innovation of business and technology animation also spread their wings into multiple digital industries, likewise covering the advertising and marketing field."
           />
           <ServiceCard
-            img={socialImg}
+            img={ppc}
             heading="Pay-per-click Advertising"
             details="PPC or pay-per-click is a type of internet marketing that involves advertisers paying a fee each time one of their ads is clicked. Simply, you only pay for advertising if your ad is actually clicked on. It's essentially a method of 'buying' visits to your site, in addition to driving website visits organically."
           />
           <ServiceCard
-            img={socialImg}
+            img={mockup}
             heading="3D mock-up Design"
             details="We provide the service of 3D mock-up designs. it is a fantastic tool that allows you to rotate your product so you can see it from every angle. mock-up your brand design with us for your business growth."
           />
           <ServiceCard
-            img={socialImg}
+            img={influencerMarketing}
             heading="Influence Marketing "
             details="We are number of influencer in our list and they have 100k + Organic followers in his/her profile.
             Influence marketing is very powerful and result oriented way for marketing.  
