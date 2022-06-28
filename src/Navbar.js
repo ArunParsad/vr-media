@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom/cjs/react-router-dom.min'
 import { MenuItems } from './Components/MenuItem'
 import './style/Navbar.css'
-import logo from './images/logo.svg'
 
 export default class Navbar extends Component {
   state = {clicked:false}
