@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom/cjs/react-router-dom.min'
 import { MenuItems } from './Components/MenuItem'
 import './style/Navbar.css'
+import logo from './images/logo.svg'
 
 export default class Navbar extends Component {
   state = {clicked:false}
@@ -13,7 +14,7 @@ export default class Navbar extends Component {
       <div>
         <nav className='NavbarItems'>
           <NavLink to="/">
-          <h3 className="navbar-logo">Vr Digital Media</h3>
+          <h3 className="navbar-logo"><span style={{color:'#0092CB'}}>V</span><span style={{color:'#fd7e14'}}>R</span> <span style={{color:'#0092CB'}}>Digital Media</span></h3>
           </NavLink>
           <div className="menu-icon" onClick={this.handleClick}>
             <i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>

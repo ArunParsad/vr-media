@@ -1,7 +1,5 @@
 import React from "react";
 import ServiceCard from "./Components/ServiceCard";
-import "./style/Service.css";
-import socialImg from "./images/social media.svg";
 import branding from './images/Services/branding.svg'
 import graphicDesing from './images/Services/Graphic Desing.svg'
 import socialMediaMarketing from './images/Services/Social media marketing.svg'

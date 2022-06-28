@@ -1,30 +1,8 @@
-.info{
-    background: #FFFF;
-    width: 50%;
-    height: 12rem;
-    margin-top: 1rem;
-    border-radius: 1rem;
-}
-.contact{
+.card-contact{
     display: flex;
-    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
-    justify-content: center;
-}
-.info-text {
-    display: flex;
-    flex-direction: column;
-    line-height: 2;
-    font-size: 1.3rem;
-}
-
-
-@media screen and (max-width: 1000px){
-    .info{
-        width: 80%;
-    }
-    .contact{
-        height: 70vh;
-        margin-top: 2rem;
-    }
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
 }
