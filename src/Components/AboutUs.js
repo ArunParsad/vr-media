@@ -11,7 +11,7 @@ const ProfileCard = () => {
           <p>
             <h3>OUR STORY</h3>
             <p>
-              Welcome to vr-media.vercel.app We specially known for our Services
+              Welcome to VR Digital Media We specially known for our Services
               like search engine optimization, social media marketing, web
               development and Digital marketing. VR Digital Media wise creative
               company working on extensive projects in the field of Website
